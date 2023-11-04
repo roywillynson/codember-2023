@@ -1,6 +1,7 @@
 const fs = require('fs/promises')
 const path = require('path')
 
+// Large Solution
 function countWords(text) {
   const values = text.toLowerCase().split(' ')
 
@@ -15,6 +16,22 @@ function countWords(text) {
   }
 
   return valuesMap
+}
+
+/**
+ * Short Solution
+ */
+function countWordsTwo(text) {
+  return text
+    .toLowerCase()
+    .split(' ')
+    .reduce(
+      (acc, value) => ({
+        ...acc,
+        [value]: (acc[value] ?? 0) + 1,
+      }),
+      {}
+    )
 }
 
 function formatCountWords(object) {
@@ -32,4 +49,5 @@ function formatCountWords(object) {
   })
 
   console.log(formatCountWords(countWords(message)))
+  console.log(formatCountWords(countWordsTwo('keys house HOUSE house keys')))
 })()
