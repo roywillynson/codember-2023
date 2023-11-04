@@ -19,9 +19,9 @@ The words are sorted by their first appearance in the message!
 **More Examples:**
 
 > _keys house HOUSE house keys -> keys2house3_
-
+>
 > _cup te a cup -> cup2te1a1_
-
+>
 > _houses house housess -> houses1house1housess1_
 
 **How to Solve It**
@@ -35,10 +35,10 @@ The words are sorted by their first appearance in the message!
 
 ### CHALLENGE
 
-- [x] Resolve Challenge
+- [x] Challenge Completed
 
 ### SECRETS
 
 - [x] Who Secret
 - [x] Mail Secret
-- [] Other Secret
+- [ ] Other Secret

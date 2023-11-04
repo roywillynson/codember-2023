@@ -30,5 +30,6 @@ function formatCountWords(object) {
   const message = await fs.readFile(path.resolve(__dirname, 'message_01.txt'), {
     encoding: 'utf-8',
   })
+
   console.log(formatCountWords(countWords(message)))
 })()
