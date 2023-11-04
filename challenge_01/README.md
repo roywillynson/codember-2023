@@ -1,7 +1,6 @@
 # CODEMBER CHALLENGE 1
 
 ## INSTRUCTIONS
-
 A spy is sending encrypted messages.
 
 Your mission is to create a program that decodes the messages.
@@ -17,28 +16,29 @@ cat2dog3car1sun1
 The words are sorted by their first appearance in the message!
 
 **More Examples:**
-
 > _keys house HOUSE house keys -> keys2house3_
 >
 > _cup te a cup -> cup2te1a1_
 >
 > _houses house housess -> houses1house1housess1_
 
-**How to Solve It**
+**How to Solve It:**
 
-1. Solve the message you will find in this file: https://codember.dev/data/message_01.txt
+1. *Solve the message you will find in this file: https://codember.dev/data/message_01.txt*
 
-2. Submit your solution with the "submit" command in the terminal, for example like this:
-   submit dog3cat3car1sun1
+2. *Submit your solution with the ```submit``` command in the terminal, for example like this:*
+   ```bash
+   $ submit dog3cat3car1sun1
+   ```
 
 ## PROGRESS
 
-### CHALLENGE
+### 💻 CHALLENGE
 
-- [x] Challenge Completed
+   - [x] Challenge completed
 
-### SECRETS
-
-- [x] Who Secret
-- [x] Mail Secret
-- [ ] Other Secret
+### ❓ SECRETS
+- [X] Secrets completed
+   - [x] WhoIs Secret
+   - [x] Mail Secret
+   - [x] Contra Secret
