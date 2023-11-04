@@ -1,0 +1,14 @@
+{
+  "name": "codember-2023",
+  "version": "1.0.0",
+  "description": "Codember Challenge",
+  "repository": {
+    "url": "https://github.com/roywillynson/codember-2023"
+  },
+  "author": "Roy Willynson <roywillynsondelorbed@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@1.22.19",
+  "engines": {
+    "node": "16"
+  }
+}
